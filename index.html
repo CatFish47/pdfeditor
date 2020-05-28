@@ -1,0 +1,20 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <p>pew</p>
+
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/pdf", true);
+
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          console.log(xhr.responseText)
+        }
+      }
+
+      xhr.send({file: "test.pdf"})
+    </script>
+  </body>
+</html>
