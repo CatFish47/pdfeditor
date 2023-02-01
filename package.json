@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "mongoose": "^5.9.16",
+    "mongoose": "^5.13.15",
     "pdfjs": "^2.3.8",
     "pdfjs-dist": "^2.3.200"
   }
